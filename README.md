@@ -2,7 +2,7 @@
 
 ## 一般的にいうホームページとは
 
-- <https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8> - 詳細は wekipedia
+- <https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8> - 詳細は wikipedia
 
 ざっくりいうと入力する項目がない web サイト
 
