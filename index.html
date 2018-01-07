@@ -1,52 +1,210 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8">
   <title>雅なPerl入門</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Le styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/prettyPhoto.css">
+  <link href='http://fonts.googleapis.com/css?family=Quantico|Source+Sans+Pro|Oswald|Oregano' rel='stylesheet' type='text/css'>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 </head>
+
 <body>
-<pre>
------
-書籍のタイトルと目次、ページ数、発売日
+  <div class="introduction-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h3><abbr title="A Resposive Portfolio / Blog Template">雅な Perl</abbr></h3>
+        </div>
+        <!-- end .span12 -->
+      </div>
+      <!-- end .row -->
+    </div>
+    <!-- end .container -->
+  </div>
+  <!-- end .introduction-wrapper -->
+  <header class="nav-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <div class="logo-container">
+            <a href="index.html">雅な Perl</a>
+          </div>
+          <!-- end .logo-container -->
+        </div>
+        <!-- end .span4 -->
+        <div class="span8">
+          <div class="nav-container nav">
+            <ul class="pull-right">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+          </div>
+          <!-- end .nav -->
+        </div>
+        <!-- end .span8 -->
+      </div>
+      <!-- end .row -->
+    </div>
+    <!-- end .container -->
+  </header>
+  <!-- end .header -->
+  <div class="container">
+    <!-- warn_1 -->
+    <div class="row">
+      <div class="span8">
+        <!-- warn_2 -->
+        <div class="post-wrapper">
+          <a href="img/IMG_1190.jpg" rel="prettyPhoto" title="This is the description"><img src="img/IMG_1190.jpg" alt="" /></a>
+          <h3><a class="post-title" href="">雅なPerl入門 第２版</a> <i class="icon-file"></i></h3>
+          <p>平松 和剛 著 - 189ページ</p>
+          <hr>
+          <ul>
+            <li>目次</li>
+            <li>第1章 プロローグ</li>
+            <li>第2章 Perl を知ろう</li>
+            <li>第3章 Perl の開発環境を整えよう</li>
+            <li>第4章 スカラー</li>
+            <li>第5章 配列とリスト</li>
+            <li>第6章 ハッシュ</li>
+            <li>第7章 サブルーチン</li>
+            <li>第8章 コンテキスト</li>
+            <li>第9章 正規表現</li>
+            <li>第10章 リファレンス</li>
+            <li>第11章 CPAN</li>
+            <li>第12章 パッケージ</li>
+            <li>第13章 モジュール</li>
+            <li>第14章 オブジェクト指向</li>
+            <li>第15章 テスト</li>
+            <li>第16章 ファイル入出力</li>
+            <li>第17章 文字エンコーディング</li>
+            <li>第18章 CPAN モジュールガイド</li>
+          </ul>
+          <hr>
+          <h4>書籍を読んだ感想</h3>
+          <p>現役プログラマーが書き下ろした、現役エンジニアになるための最短の入門書。
+            <br>お堅いプログラミング学習書にありがちな過剰に詳細な説明は省き、 必要なポイントを最小限の説明にとどめている。
+            <br>200ページ足らずのページ数が実にちょうどよく、リファレンスがわりに携帯することも苦にならない。
+            <br>最新は第３版が発売されている。</p>
+          <hr>
+          <h4>著者プロフィール</h3>
+          <p>平松 和剛 (@kaz_hiramatsu)
+            <br> IT 企業にてWEB系システム開発に従事し、現在はフリーランスで活動を行っている。
+            <br> 過去に YAPC::ASIA のスピーカーや、「雅な Perl 入門」(初級者向けの Perl入門書) の執筆など、WEBエンジニア界隈において堅実な活動を行っている。
+            <br> 実務経験に裏打ちされた、現実的な指導に定評がある。 </p>
+        </div>
+        <!-- end .post-wrapper -->
+      </div>
+      <!-- end .span8-->
+      <div class="span4">
+        <div class="widget-container">
+          <div class="widget">
+            <div class="recent-twitter">
+              <h3 class="widget-title">Latest Tweets</h3>
+              <a class="twitter-timeline"  href="https://twitter.com/search?q=kaz_hiramatsu" data-widget-id="949897272581500928">kaz_hiramatsuに関するツイート</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+            <!-- end .recent-twitter -->
+          </div>
+          <!-- end .widget -->
+        </div>
+        <!-- end .widget-container -->
+      </div>
+      <!-- end .span4 -->
+    </div>
+    <!-- .row -->
+  </div>
+  <!-- end.container-->
+  <footer id="copyright-and-credits">
+    <div class="container">
+      <div class="footer-container">
+        <div class="row">
+          <!-- end .span3 -->
+        </div>
+        <!-- end .row -->
+      </div>
+      <!-- end .footer-container -->
+      <div class="credits">
+        <div class="row">
+          <div class="span6">
+            <p>Copyright © 2018 hackerzlab All Rights Reserved.</p>
+          </div>
+          <!-- end .span6 -->
+          <div class="span6 ">
+            <div id="social-icons-small">
+              <ul class="without-style">
+                <li><a href="https://twitter.com/kaz_hiramatsu" class="twitter-link" title="Follow on Twitter"><span>Twitter</span></a></li>
+              </ul>
+            </div>
+            <!-- end .social-icons-small -->
+          </div>
+          <!-- end .span6 -->
+        </div>
+        <!-- end .row -->
+      </div>
+      <!-- end .credits -->
+    </div>
+    <!-- end .container -->
+  </footer>
+  <!-- end #copyright-and-credits -->
+  <!-- 
+        <div id="toTop"><i class="icon-arrow-up icon-large"></i></div>
+        -->
+  <!-- Le javascript
+        ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- tab script -->
+  <script>
+  $(function() {
+    $('#myTab a:first').tab('show');
+  })
+  </script>
+  <script type="text/javascript">
+  // cache container
+  var $container = $('#portfolio-container');
+  // initialize isotope
+  $container.isotope({
+    // options...
+    filter: '*'
+  });
 
-雅なPerl入門 第２版
-189ページ
-平松 和剛 著
-目次
-第1章 プロローグ
-第2章 Perl を知ろう
-第3章 Perl の開発環境を整えよう
-第4章 スカラー
-第5章 配列とリスト
-第6章 ハッシュ
-第7章 サブルーチン
-第8章 コンテキスト
-第9章 正規表現
-第10章 リファレンス
-第11章 CPAN
-第12章 パッケージ
-第13章 モジュール
-第14章 オブジェクト指向
-第15章 テスト
-第16章 ファイル入出力
-第17章 文字エンコーディング
-第18章 CPAN モジュールガイド
------
-書籍を読んだ感想
-
-現役プログラマーが書き下ろした、現役エンジニアになるための最短の入門書。
-お堅いプログラミング学習書にありがちな過剰に詳細な説明は省き、
-必要なポイントを最小限の説明にとどめている。
-200ページ足らずのページ数が実にちょうどよく、リファレンスがわりに携帯することも苦にならない。
-最新は第３版が発売されている。
------
-著者の簡単なプロフィール
-
-平松 和剛 (@kaz_hiramatsu)
-IT 企業にてWEB系システム開発に従事し、現在はフリーランスで活動を行っている。
-過去に YAPC::ASIA のスピーカーや、「雅な Perl 入門」(初級者向けの Perl入門書) の執筆など、WEBエンジニア界隈において堅実な活動を行っている。
-実務経験に裏打ちされた、現実的な指導に定評がある。
------
-</pre>
+  // filter items when filter link is clicked
+  $('#filters a').click(function() {
+    var selector = $(this).attr('data-filter');
+    $container.isotope({ filter: selector });
+    return false;
+  });
+  // update columnWidth on window resize
+  $(window).smartresize(function() {
+    $container.isotope('reLayout');
+  });
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+  </script>
 </body>
+
 </html>
