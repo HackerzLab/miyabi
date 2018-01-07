@@ -116,25 +116,25 @@ __アクセスすると README.md の内容が公開されている__
 __慣例的に index.html というファイル名が自動的に表示される__
 
 - お手元の環境に git clone する
-- 例: git clone git@github.com:ykHakata/miyabi.git
+- 例: `git clone git@github.com:ykHakata/miyabi.git`
 
 __注意、お手元の環境で github との ssh 周りの設定が済んでない場合は https で clone__
 
-- .gitignore をつくる -> .DS_Store
-- index.html を作成し、先ほどの原稿を貼り付けて、保存
-- git add. -> git commit -m 'add index' -> git push
-- /index -> このようにアクセスすれば作った内容が公開されている
+- `.gitignore` をつくる -> `.DS_Store`
+- `index.html` を作成し、先ほどの原稿を貼り付けて、保存
+- `git add.` -> `git commit -m 'add index'` -> `git push`
+- `/index` -> このようにアクセスすれば作った内容が公開されている
 
 ## ブランチ gh-pages を作成する
 
 - Branch: master -> gh-pages を入力 -> create -> Branch: gh-pages になる
 - GitHub Pages -> Source -> gh-pages branch になっていることの確認
-- / -> index の内容が初めに表示されるようになる
+- `/` -> index の内容が初めに表示されるようになる
 
 ## ブランチ gh-pages を標準にする
 
 - Settings(歯車アイコン) -> クリック -> Branches -> Default branch -> gh-pages -> update
-- ターミナルにて -> git checkout gh-pages
+- ターミナルにて -> `git checkout gh-pages`
 
 __以降は gh-pages のブランチで作業してゆく__
 
