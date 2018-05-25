@@ -116,7 +116,7 @@ __アクセスすると README.md の内容が公開されている__
 __慣例的に index.html というファイル名が自動的に表示される__
 
 - お手元の環境に git clone する
-- 例: `git clone git@github.com:ykHakata/miyabi.git`
+- 例: `git clone git@github.com:HackerzLab/miyabi.git`
 
 __注意、お手元の環境で github との ssh 周りの設定が済んでない場合は https で clone__
 
