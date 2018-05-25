@@ -175,8 +175,8 @@ miyabi/
 
 オリジナルを表示するアドレスを確認
 
-- <https://ykhakata.github.io/miyabi/org/atoom/index> - オリジナルのページ
-- <https://ykhakata.github.io/miyabi/> - 作っているページ
+- <https://HackerzLab.github.io/miyabi/org/atoom/index> - オリジナルのページ
+- <https://HackerzLab.github.io/miyabi/> - 作っているページ
 
 ## 独自ドメインを利用する方法
 
